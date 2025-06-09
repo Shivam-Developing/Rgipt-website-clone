@@ -1,0 +1,402 @@
+﻿@charset "utf-8";
+@media screen and (min-device-width:1470px) and (max-device-width:2560px) {
+.primarymenu .navbar-inverse .navbar-nav > li > a {padding: 8px 16px !important;}
+.top-right li {padding: 5px 2px !important;}
+.logo img {/* width: 90%; */}
+.container {width: 1430px !important;}
+}
+@media only screen and (max-width:1240px) {
+.primarymenu .navbar-inverse .navbar-nav>li>a {
+	padding: 3px 6px!important
+}
+.search .form-control {
+	width: 85px!important
+}
+#inner-sec .page-title-title {
+	bottom: -2px!important
+}
+.top-right li a {
+	padding: 3px 3px!important
+}
+}
+@media only screen and (max-width:990px) {
+#welcome {
+	padding: 15px 0 0px 0!important;
+	margin: 0px;
+}
+#wowslider-container1 .ws-title {
+	font-size: 18px !important;
+	width: 100% !important;
+	line-height: 15px !important;
+}
+.highlight-links ul li {
+	width: 49.9% !important;
+}
+.green, .orange, .yellow {
+	margin-bottom: 15px!important
+}
+.container {
+	width: auto !important;
+}
+.primarymenu .navbar-inverse .navbar-nav>li>a {
+	padding: 6px 10px!important;
+}
+.quicklink li {
+	width: 33.333%!important
+}
+.logo {
+	width: 80%;
+	border-radius: 0!important;
+}
+.photo_categery li {
+	-ms-flex: 33.33% !important;
+	flex: 33.33% !important;
+	max-width: 33.33% !important;
+}
+}
+@media only screen and (max-width:767px) {
+	
+.research-communuque .news-thumb img {
+    max-height: initial !important;
+    width: 100% !important;
+}
+
+.award .owl-controls {
+    top: 0px !important;
+
+}
+#welcome {
+    padding: 15px 0 0px 0!important;
+}
+.connect{  text-align: center !important; padding-bottom:15px}
+.breaking-news-ticker {
+    border-radius:0px !important; 
+
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #024c8d !important;
+}
+.explore-rgipt .btn {
+    font-size: 1.1em !important;
+}
+.explore-rgipt {
+    bottom: 15px !important;
+
+}
+.menuFxd {
+    position: relative !important;
+}
+.logo {
+    width: 100% !important;
+}
+.sidebarbutton .icon {
+    margin-right: 3px !important;
+}
+.sidebarbutton {
+    font-size: 0.9em !important;
+    padding: 4px 3px !important;
+    margin-top: -29px !important;
+    margin-right: 15px !important;
+    z-index: 99 !important;
+}
+.nopadding {
+	padding: 0px 15px !important;
+}
+.photo_categery li {
+	-ms-flex: 50% !important;
+	flex: 50% !important;
+	max-width: 50% !important;
+}
+.prog-tab .nav {
+	position: inherit !important;
+	width: 100% !important;
+}
+.primarymenu .navbar-inverse .navbar-nav>li>a {
+	padding: 12px 10px!important;
+}
+.primarymenu .navbar-inverse .navbar-nav > li {
+	border-bottom: 1px solid rgb(222, 222, 222) !important;
+}
+#inner-sec {
+	height: 130px!important
+}
+.quicklink li {
+	width: 50%!important
+}
+.top-nav {
+	background-color: transparent!important;
+	top: 0!important;
+	left: 0!important;
+	z-index: 99!important;
+	width: 100%;
+	display: block;
+}
+.primarymenu .navbar-nav {
+	margin: 0px 0px!important;
+	display: block;
+}
+.primarymenu .row {
+	padding: 0!important
+}
+.open-block {
+	display: block;
+	background: #fff
+}
+.top-right li:nth-child(1), .top-right li:nth-child(2), .top-right li:nth-child(4), .top-right li:nth-child(5){
+	display: none!important
+}
+.search .form-control {
+	width: 71px!important;
+	float: left!important;
+	font-size: 10px!important
+}
+#wowslider-container1 .ws-title {
+	width: 100%!important;
+	padding: 8px 12px!important;
+	text-align: left!important;
+	bottom: 0!important;
+	line-height: 18px!important;
+	font-size: 13px!important
+}
+.primarymenu .navbar-inverse {
+	background-color: white!important;
+	border-color: rgba(252,153,40,0)!important;
+	float: none!important;
+	margin-top: 0!important;
+	border: none!important;
+	margin: 0px -15px;
+}
+.toplink li a {
+	padding: 4px
+}
+.top-nav {
+	font-size: 11px
+}
+#textresizer li:nth-child(2), #textresizer li:nth-child(4), #textresizer li:nth-child(5), #textresizer li:nth-child(6) {
+	display: none!important
+}
+.top-right {
+	text-align: left!important
+}
+.left-pading {
+	padding-left: 15px
+}
+.right-pading {
+	padding-right: 15px;
+	margin-top: 20px
+}
+.qlbg {
+	margin: -15px -15px 15px -15px
+}
+.l-events li img {
+	width: 100%
+}
+.prog-tab .nav {
+	position: relative;
+	width: 100%
+}
+.prog-tab .nav-tabs>li>a {
+	font-size: 1em
+}
+.prog-tab .tabcontent {
+	padding-top: 15px
+}
+
+.footbootm {
+	padding: 5px 0!important
+}
+.footbootm ul {
+	text-align: center!important
+
+
+}
+.footbootm .text-right, .foottop .text-right {
+	text-align: center!important
+}
+.foottop {
+	text-align: center!important
+}
+.share-it {
+	top:50%!important;
+}
+#controls {
+	position: absolute!important;
+	bottom: -30px!important;
+	right: 15px!important;
+}
+.newscontent {
+	padding: 0 55px 0 0!important
+
+}
+.left-pading {
+	padding-left: 5%!important
+}
+#newswrap {
+	min-height: 145px!important;
+	padding: 25px 0!important
+}
+.btn-info, .btn-danger {
+	margin-bottom: 15px
+}
+.newgallery li .heading {
+	font-size: 18px !important;
+	margin-top: 0% !important;
+	margin-bottom: 0px !important;
+}
+.newsnotices ul li {
+	width: 50% !important;
+	margin-bottom: 2px;
+}
+.newsnotices ul li a {
+	padding: 0 15px !important;/*	font-size: 1.1em !important;*/
+}
+.prog-tab .tabcontent {
+	margin: 15px;
+	padding-top: 15px !important;
+}
+.inrightbar {
+	display: unset;
+	height: auto !important;
+	float: left;
+	width: 100%;
+}
+.footbootm ul li {
+	line-height: 10px;
+	margin-bottom: 10px;
+}
+.filtr-item {
+	width: 47% !important;
+}
+.profilehead h4 {
+	font-size: 1.31em;
+}
+.accordion {
+	margin-bottom: 15px;
+}
+#inner-sec .page-title-title h2 {
+	padding: .4em 0.5em .4em 0.5% !important;
+	margin-right: 0.5% !important;
+	padding-left: 3% !important;
+	font-size: 1.2em !important;
+}
+.bg-light-red, .bg-light-gray {
+	min-height: auto !important;
+}
+.maincontent {
+	text-align: initial !important;
+}
+.grid-stack-item {
+	width: 50% !important;
+	float: left !important;
+	height: 120px !important;
+}
+.achievements .news-thumb img {
+    max-height: initial !important;
+    width: 100% !important;
+}
+.top-nav ul {text-align: -webkit-match-parent;text-align: center;}
+.footlink {
+    column-count:2 !important;
+}
+.video-popup .modal-dialog {
+    width: 94% !important;
+}
+}
+@media only screen and (max-width:640px) {
+.prog-tab .tab-pane .col-md-3 {
+	max-width: 100%;
+	display: none;
+}
+.prog-tab .tab-pane .col-md-9 {
+	width: 95%;
+}
+}
+ @media only screen and (max-width:410px) {
+.search .form-control {
+    width: 44px!important;
+}
+ul.social-network li {
+    width: 46% !important;
+    margin: 5px 5px !important;
+}
+.ql-box .overlay h4 {
+    font-size: 1em;
+}
+.highlight-links li .icons {
+	height: 130px !important;
+	width: 130px !important;
+}
+.highlight-links li .icons img {
+	height: 80px !important;
+}
+.highlight-links ul li {
+	min-height: 250px !important;
+}
+.highlight-links ul li a {
+	padding: 35px 6px !important;
+	font-size: 1.4em !important;
+}
+.highlight-links ul {
+	margin-bottom: 15px !important
+}
+.imgzoom {
+	border: 5px solid #fdefef !important;
+	width: 165px !important;
+}
+h3 {
+	font-size: 1em !important;
+}
+#inner-sec {
+	height:140px!important;
+}
+.ql-box .overlay {
+	height: 22% !important;
+}
+.prog-tab .nav-tabs>li>a {
+	font-size: 0.9em !important;
+	padding: 12px 10px !important;
+}
+.photo_categery li {
+	-ms-flex: 100% !important;
+	flex: 100% !important;
+	max-width: 100% !important;
+	padding: 0 4px;
+	vertical-align: middle;
+}
+#inner-sec .page-title-title h2 {
+	/* padding: .4em 0.5em .4em 0.5% !important; */
+	margin-right: 0.5% !important;
+	padding-left: 3% !important;
+	font-size: 1.2em !important;
+	letter-spacing: 0px !important;
+}
+.newgallery li .overlay {
+	padding: 10px !important;
+	line-height: 18px !important;
+	font-size: 0.8em !important;
+}
+.newgallery li .def-head {
+	padding: 3px 11px !important;
+	font-size: 12px !important;
+}
+.imgborder2, .imgborder3 {
+	border: 4px solid #fdefef!important
+}
+.quicklink li {
+	width: 100%!important
+}
+.overlay .col-xs-6 {
+	width: 100%!important
+}
+#wowslider-container1 .ws-title {
+	width: 100%!important;
+	padding: 4px 12px!important;
+	text-align: left!important;
+	bottom: 0!important;
+	line-height: 12px!important;
+	font-size: 10px!important
+}
+.back {
+	margin-bottom: 25px !important;
+}
+}

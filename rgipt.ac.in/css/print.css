@@ -1,0 +1,78 @@
+/**
+ * Example Print Preview site
+ *
+ *	print.css
+ *	author: Tim Connell
+ */
+
+/* -- Hide screen specific elements -- */
+@media print{
+ @page {
+      margin:15px;
+    }
+	body{ margin:0px; padding:0px;}	
+a:link:after, a:visited:after {
+	content: normal !important
+}
+a[href]:after {
+	content: normal !important;
+}
+a:link:after,
+a:visited:after {
+  content: " ("attr(href)") ";
+  font-size: 80%;
+  text-decoration: none;
+}
+.menuFxd{ position:relative !important;}
+.top-nav{ background-color:#000 !important; color:#fff !important;} 
+.time{color:#fff !important;} 
+#textresizer li, #textresizer li a{color:#fff !important;}
+.search .form-control{ background-color:#fff !important; color:#333 !important; width:150px !important;}
+.header{ background-color:#054c88 !important;}
+.header-ich{ background-color:#48cbb4 !important;}
+.primarymenu,.nav,.navbar,.collapse{display:block !important;}
+#wowslider-container1 .ws-title{ background-color:#000 !important; color:#fff !important;}
+#wowslider-container1 .ws-title span{color:#fff !important;}
+.admission .title2,.studentcornor .owl-controls .owl-buttons div{ background-color:#054c88 !important; color:#fff !important;}
+.admission .title2 h4, .studentcornor .owl-controls .owl-buttons i{color:#fff !important;}
+.paddingno ul.studentcornor .owl-item li.news-thumb div h4{ background-color: rgba(0,0,0,.8)!important; color:#fff !important;}
+.ql-box .overlay{background-color: rgba(0,0,0,.8)!important; color:#fff !important;}
+.ql-box .overlay h4 a{color:#fff !important;}
+.boxthumb a{background-color: #19a374 !important;}
+.boxthumb a span{color:#fff !important;}
+footer .overlay{background-color: #054c88 !important;}
+footer,.foottop,.footbootm{background-color: #003159 !important; color:#fff !important;}
+.footlink a, .footlink li a::before, .footbootm ul li a{color:#fff !important;}
+.foottop .text-center, .footbootm .text-center,.foottop .text-center span{color:#fff !important;}
+#inner-sec {background-image: url(../images/bginnerpage-4.jpg) !important;}
+.filtr-item{ border:1px solid #333 !important; background: #f3f0f0 !important;}
+.maincontent{min-height:1px !important;}
+.btn-danger {
+    color: #fff !important;
+background-color:#024c8d !important;
+border-color:#024c8d !important;
+}
+.table tr td, .table tr th{ text-align:left !important; }
+.filter-box input[type="submit"] {background:#024c8d !important; color:#ececec !important;}
+.filter-box input[type="text"] .filter-box select{ background-color:#fff !important; border:1px solid #333 !important;}
+.deplogotext h3{color: #6fff40 !important;}
+.deaprtment ul li a{ background-color:#024c8d !important; color:#fff !important;}
+.secondmenu{background: #eae7de !important;}
+.bg-light-gray{background: #f5f5f5 !important;}
+.photo_categery li .def-head{ background-color:rgba(2, 76, 141, 0.95) !important; color:#fff !important}
+.explore-rgipt{ position:relative !important;}
+.social-circle li a{ padding:10px !important;}
+.social-circle li a span{color:#fff !important;}
+ul.social-network li{ width:22% !important;}
+.socialwrap .socialmedia-head{background-color: #f3dfa4 !important;}
+#welcome .rightside{background-color:#054c88 !important;}
+.icoFacebook {background-color:#3B5998 !important; color:#fff !important;}
+.social-circle li a .fa{ color:#fff !important;}
+.icoTwitter{background-color:#33ccff !important; color:#fff !important;}
+.icoLinkedin{background-color:#007bb7 !important; color:#fff !important;}
+.icoRss{background-color:#FF3682!important; color:#fff !important;}
+.foottop ul li a{color:#fff !important;}
+.footbootm .text-center .pull-right{color:#fff !important;}
+.sidebarmenu{background-color: rgba(0,0,0,.8)!important;}
+.sidebarmenu ul li a{color:#fff !important;}
+}
